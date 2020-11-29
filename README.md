@@ -13,9 +13,9 @@ An E-Hentai Application for Android.
 
 # Download
 
-[下载](https://github.com/NekoInverter/EhViewer/releases)
+[下载](https://github.com/NuclearVGA/EhViewer/releases)
 
-[Download](https://github.com/NekoInverter/EhViewer/releases)
+[Download](https://github.com/NuclearVGA/EhViewer/releases)
 
 
 # Thanks

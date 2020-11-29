@@ -24,11 +24,11 @@ android {
         }
     }
     defaultConfig {
-        applicationId "io.github.nekoinverter.ehviewer"
+        applicationId "io.github.nuclearvga.ehviewer"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 120
-        versionName "1.7.16"
+        versionCode 121
+        versionName "1.7.16.1"
         resConfigs "zh", "zh-rCN", "zh-rHK", "zh-rTW",
                 "es", "ja", "ko", "fr", "de", "th"
         testOptions.unitTests.includeAndroidResources = true

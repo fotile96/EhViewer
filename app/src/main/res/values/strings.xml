@@ -438,7 +438,7 @@
     <string name="hosts">Custom hosts.txt</string>
     <string name="hosts_tip">hosts.txt</string>
     <string name="hosts_host">Host</string>
-    <string name="hosts_ip">IP</string>
+    <string name="hosts_ip">IP1(+IP2+IP3...)</string>
     <string name="add_host">Add a host</string>
     <string name="add_host_add">Add</string>
     <string name="edit_host">Edit the host</string>
@@ -617,7 +617,7 @@
     <string name="settings_about_declaration" translatable="false">EhViewer</string>
     <string name="settings_about_declaration_summary">EhViewer is not affiliated with E-Hentai.org in any way</string>
     <string name="settings_about_author">Author</string>
-    <string name="settings_about_author_summary" translatable="false">Hippo &lt;ehviewersu$gmail.com&gt;</string>
+    <string name="settings_about_author_summary" translatable="false">NuclearVGA &lt;nuclearvga$qq.com&gt;</string>
     <string name="settings_about_telegram">Telegram</string>
     <string name="settings_about_latest_release">Latest release</string>
     <string name="settings_about_website">Website</string>

@@ -43,7 +43,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
-import java.util.Base64;
+//import java.util.Base64;
+import com.hippo.util.Base64;
 
 import okhttp3.Call;
 import okhttp3.OkHttpClient;

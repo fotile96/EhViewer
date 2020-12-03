@@ -6,29 +6,25 @@ android {
     buildToolsVersion "30.0.2"
     ndkVersion "21.3.6528147"
     signingConfigs {
-        def keystorePwd = null
-        def alias = null
-        def pwd = null
-        if (project.rootProject.file('local.properties').exists()) {
-            Properties properties = new Properties()
-            properties.load(project.rootProject.file('local.properties').newDataInputStream())
-            keystorePwd = properties.getProperty("RELEASE_STORE_PASSWORD")
-            alias = properties.getProperty("RELEASE_KEY_ALIAS")
-            pwd = properties.getProperty("RELEASE_KEY_PASSWORD")
-        }
         release {
             storeFile file("hitokoto.jks")
-            storePassword keystorePwd != null ? keystorePwd : System.getenv("KEYSTORE_PASS")
-            keyAlias alias != null ? alias : System.getenv("ALIAS_NAME")
-            keyPassword pwd != null ? pwd : System.getenv("ALIAS_PASS")
+            storePassword System.getenv("RELEASE_STORE_PASSWORD")
+            keyAlias 'key0'
+            keyPassword System.getenv("RELEASE_KEY_PASSWORD")
+        }
+        debug {
+            storeFile file('debug.jks')
+            storePassword '123456'
+            keyAlias 'key0'
+            keyPassword '123456'
         }
     }
     defaultConfig {
         applicationId "com.hippo.ehviewer"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 123
-        versionName "1.7.16.3"
+        versionCode 124
+        versionName "1.7.16.4"
         resConfigs "zh", "zh-rCN", "zh-rHK", "zh-rTW",
                 "es", "ja", "ko", "fr", "de", "th"
         testOptions.unitTests.includeAndroidResources = true
@@ -54,7 +50,7 @@ android {
         }
         debug {
             applicationIdSuffix ".debug"
-            signingConfig signingConfigs.release
+            signingConfig signingConfigs.debug
         }
     }
 

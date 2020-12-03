@@ -6,17 +6,27 @@
 
 An E-Hentai Application for Android.
 
+# Warning
+
+1、安装有旧版本的EhViewer的用户，安装新版本EhViewer前请备份好数据（以及旧版本安装包），以避免出现错误导致的数据丢失。
+
+2、新旧版本EhViewer签名不一致可能导致无法安装，请手动卸载旧版本EhViewer再进行安装。
+
+# Download
+
+[下载](https://github.com/NuclearVGA/EhViewer/releases/latest)
+
+[Download](https://github.com/NuclearVGA/EhViewer/releases/latest)
+
+猴子都能懂的下载方法：
+
+1、点击打开上方的下载链接
+
+2、点击 EhViewer-universal-****.apk 进行下载
 
 # Screenshot
 
 ![screenshot-01](art/screenshot-01.png)
-
-# Download
-
-[下载](https://github.com/NuclearVGA/EhViewer/releases)
-
-[Download](https://github.com/NuclearVGA/EhViewer/releases)
-
 
 # Thanks
 
@@ -38,7 +48,6 @@ Here is the libraries
 - [ShowcaseView](https://github.com/amlcurran/ShowcaseView)
 - [Slabo](https://github.com/TiroTypeworks/Slabo)
 - [TagSoup](http://home.ccil.org/~cowan/tagsoup/)
-
 
 # License
 

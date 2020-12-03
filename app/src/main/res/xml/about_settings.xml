@@ -75,10 +75,11 @@
         android:key="version"
         app:iconSpaceReserved="false" />
 
-    <Preference
+    <com.hippo.preference.UrlPreference
         android:key="check_for_updates"
         android:title="@string/settings_about_check_for_updates"
-        app:iconSpaceReserved="false" />
+        app:iconSpaceReserved="false"
+        app:url="https://github.com/NuclearVGA/EhViewer/releases/latest" />
 
     <!--<SwitchPreferenceCompat
         android:defaultValue="@bool/beta"

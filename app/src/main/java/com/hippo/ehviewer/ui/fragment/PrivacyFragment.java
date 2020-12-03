@@ -6,7 +6,7 @@ import android.text.TextUtils;
 import androidx.annotation.Nullable;
 import androidx.preference.Preference;
 
-import com.hippo.ehviewer.Analytics;
+//import com.hippo.ehviewer.Analytics;
 import com.hippo.ehviewer.R;
 import com.hippo.ehviewer.Settings;
 
@@ -20,9 +20,9 @@ public class PrivacyFragment extends BaseSettingsFragment {
     @Override
     public void onCreatePreferencesFix(@Nullable Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.privacy_settings);
-        Preference enableAnalytics = findPreference(Settings.KEY_ENABLE_ANALYTICS);
-
-        enableAnalytics.setOnPreferenceChangeListener(this);
+        //Preference enableAnalytics = findPreference(Settings.KEY_ENABLE_ANALYTICS);
+        
+        //enableAnalytics.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -35,7 +35,7 @@ public class PrivacyFragment extends BaseSettingsFragment {
                 R.string.settings_privacy_pattern_protection_set);
     }
 
-    @Override
+    /*@Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         String key = preference.getKey();
         if (Settings.KEY_ENABLE_ANALYTICS.equals(key)) {
@@ -44,5 +44,5 @@ public class PrivacyFragment extends BaseSettingsFragment {
             }
         }
         return true;
-    }
+    }*/
 }

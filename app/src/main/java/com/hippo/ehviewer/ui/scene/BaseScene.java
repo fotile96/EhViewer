@@ -39,7 +39,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.FragmentActivity;
 
 import com.hippo.android.resource.AttrResources;
-import com.hippo.ehviewer.Analytics;
+//import com.hippo.ehviewer.Analytics;
 import com.hippo.ehviewer.R;
 import com.hippo.ehviewer.ui.MainActivity;
 import com.hippo.ehviewer.widget.EhDrawerLayout;
@@ -307,11 +307,11 @@ public abstract class BaseScene extends SceneFragment {
         }
     }
 
-    @Override
+    /*@Override
     public void onResume() {
         super.onResume();
         Analytics.onSceneView(this);
-    }
+    }*/
 
     @Override
     public void onSaveInstanceState(@NonNull Bundle outState) {

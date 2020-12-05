@@ -1,32 +1,7 @@
 # EhViewer
 
-![Icon](art/launcher_icon-web.png)
-
-这是一个 E-Hentai Android 平台的浏览器。
-
-An E-Hentai Application for Android.
-
-# Warning
-
-1、安装有旧版本的EhViewer的用户，安装新版本EhViewer前请备份好数据（以及旧版本安装包），以避免出现错误导致的数据丢失。
-
-2、新旧版本EhViewer签名不一致可能导致无法安装，请手动卸载旧版本EhViewer再进行安装。
-
-# Download
-
-[下载](https://github.com/NuclearVGA/EhViewer/releases/latest)
-
-[Download](https://github.com/NuclearVGA/EhViewer/releases/latest)
-
-猴子都能懂的下载方法：
-
-1、点击打开上方的下载链接
-
-2、点击 EhViewer-universal-****.apk 进行下载
-
-# Screenshot
-
-![screenshot-01](art/screenshot-01.png)
+前任作者NekoInverter在gitlab重新更新EhViewer了，我不再独立维护项目，本项目暂时封存。
+请前往 https://gitlab.com/NekoInverter/EhViewer 获取最新版本。
 
 # Thanks
 

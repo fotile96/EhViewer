@@ -37,11 +37,11 @@ import com.hippo.glgallery.GalleryView;
 import com.hippo.unifile.UniFile;
 import com.hippo.util.ExceptionUtils;
 import com.hippo.yorozuya.AssertUtils;
-import com.hippo.yorozuya.FileUtils;
-import com.hippo.yorozuya.MathUtils;
+//import com.hippo.yorozuya.FileUtils;
+//import com.hippo.yorozuya.MathUtils;
 import com.hippo.yorozuya.NumberUtils;
 
-import java.io.File;
+//import java.io.File;
 import java.util.Locale;
 
 public class Settings {

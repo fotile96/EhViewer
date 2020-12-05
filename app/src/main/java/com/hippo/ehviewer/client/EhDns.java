@@ -46,11 +46,11 @@ public class EhDns implements Dns {
 
     static {
         Map<String, List<InetAddress>> map = new HashMap<>();
-        put(map, "exhentai.org", "178.175.132.22+178.175.129.254+178.175.132.20");
+        put(map, "exhentai.org", "178.175.129.252+178.175.128.252+178.175.132.22+178.175.129.254");
         put(map, "e-hentai.org", "104.20.26.25"); // I can't directly access every IP of "e-hentai.org"
-        put(map, "repo.e-hentai.org", "94.100.28.57+94.100.29.73");
+        put(map, "repo.e-hentai.org", "94.100.28.57");
         put(map, "forums.e-hentai.org", "94.100.18.243");
-        put(map, "ehgt.org", "37.48.89.44+178.162.139.24+81.171.10.48");
+        put(map, "ehgt.org", "37.48.89.44+178.162.139.24+178.162.140.212+81.171.10.48");
         put(map, "ul.ehgt.org", "94.100.24.82+94.100.24.72");
         builtInHosts = map;
     }

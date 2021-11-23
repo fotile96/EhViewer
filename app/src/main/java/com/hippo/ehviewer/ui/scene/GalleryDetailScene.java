@@ -481,6 +481,7 @@ public class GalleryDetailScene extends BaseScene implements View.OnClickListene
         View progressView = ViewUtils.$$(main, R.id.progress_view);
         mTip = (TextView) ViewUtils.$$(main, R.id.tip);
         mViewTransition = new ViewTransition(mainView, progressView, mTip);
+        mViewTransition = null;
 
         Context context = getContext2();
         AssertUtils.assertNotNull(context);
@@ -522,6 +523,7 @@ public class GalleryDetailScene extends BaseScene implements View.OnClickListene
         mHeader = ViewUtils.$$(mainView, R.id.header);
         mColorBg = ViewUtils.$$(mHeader, R.id.color_bg);
         mThumb = (LoadImageView) ViewUtils.$$(mHeader, R.id.thumb);
+        //mThumb = null;
         mTitle = (TextView) ViewUtils.$$(mHeader, R.id.title);
         mUploader = (TextView) ViewUtils.$$(mHeader, R.id.uploader);
         mCategory = (TextView) ViewUtils.$$(mHeader, R.id.category);

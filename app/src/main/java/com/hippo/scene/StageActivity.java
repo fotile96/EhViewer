@@ -222,12 +222,13 @@ public abstract class StageActivity extends EhActivity {
     }
 
     public int getSceneLaunchMode(Class<?> clazz) {
-        Integer integer = sLaunchModeMap.get(clazz);
+        return 0;
+        /*Integer integer = sLaunchModeMap.get(clazz);
         if (integer == null) {
             throw new RuntimeException("Not register " + clazz.getName());
         } else {
             return integer;
-        }
+        }*/
     }
 
     private SceneFragment newSceneInstance(Class<?> clazz) {

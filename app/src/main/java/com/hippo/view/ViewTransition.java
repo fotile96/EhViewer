@@ -92,6 +92,7 @@ public class ViewTransition {
                         v.setAlpha(0f);
                         v.setVisibility(View.GONE);
                     }
+                    v.invalidate();
                 }
             }
 

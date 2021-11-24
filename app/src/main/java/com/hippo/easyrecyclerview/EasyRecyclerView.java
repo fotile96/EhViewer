@@ -125,17 +125,17 @@ public class EasyRecyclerView extends ScrollLessRecyclerView {
 
     public EasyRecyclerView(Context context) {
         super(context);
-        setEnableScroll(!Settings.getEInkMode());
+        //setEnableScroll(!Settings.getEInkMode());
     }
 
     public EasyRecyclerView(Context context, AttributeSet attrs) {
         super(context, attrs);
-        setEnableScroll(!Settings.getEInkMode());
+        //setEnableScroll(!Settings.getEInkMode());
     }
 
     public EasyRecyclerView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
-        setEnableScroll(!Settings.getEInkMode());
+        //setEnableScroll(!Settings.getEInkMode());
     }
 
     /**

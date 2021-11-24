@@ -1636,10 +1636,11 @@ public class GalleryDetailScene extends BaseScene implements View.OnClickListene
     }
 
     private void onGetGalleryDetailSuccess(GalleryDetail result) {
-        mGalleryDetail = result;
+        getActivity().getSupportFragmentManager().beginTransaction().detach(this).attach(this).commit();
+        /*mGalleryDetail = result;
         updateDownloadState();
         adjustViewVisibility(STATE_NORMAL, true);
-        bindViewSecond();
+        bindViewSecond();*/
     }
 
     private void onGetGalleryDetailFailure(Exception e) {

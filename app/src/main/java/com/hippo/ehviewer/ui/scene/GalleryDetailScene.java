@@ -789,6 +789,7 @@ public class GalleryDetailScene extends BaseScene implements View.OnClickListene
         mState = state;
 
         animation = !TRANSITION_ANIMATION_DISABLED && animation;
+        animation = false;
 
         switch (state) {
             case STATE_NORMAL:

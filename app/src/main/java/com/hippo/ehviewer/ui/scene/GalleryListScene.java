@@ -1208,6 +1208,8 @@ public final class GalleryListScene extends BaseScene
             return;
         }
 
+        animation = false;
+
         if (mState != state) {
             int oldState = mState;
             mState = state;

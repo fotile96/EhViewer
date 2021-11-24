@@ -136,7 +136,7 @@ public class Settings {
     private static final String KEY_NIGHT_MODE = "night_mode";
     private static final String DEFAULT_NIGHT_MODE = "-1";
     private static final String KEY_E_INK_MODE = "e_ink_mode";
-    private static final boolean DEFAULT_E_INK_MODE = false;
+    //private static final boolean DEFAULT_E_INK_MODE = false;
     /********************
      ****** Read
      ********************/
@@ -291,7 +291,7 @@ public class Settings {
                 putShowTagTranslations(true);
             }
         }
-        if (!sSettingsPre.contains(KEY_E_INK_MODE)) {
+        /*if (!sSettingsPre.contains(KEY_E_INK_MODE)) {
             WindowManager wm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
             // Probably an E-Ink device?
             if (wm != null) {
@@ -302,7 +302,7 @@ public class Settings {
                     putEInkMode(true);
                 }
             }
-        }
+        }*/
     }
 
     private static EhConfig loadEhConfig() {
@@ -586,13 +586,13 @@ public class Settings {
         putString(KEY_EXCLUDED_LANGUAGES, value);
     }
 
-    public static void putEInkMode(boolean value) {
+    /*public static void putEInkMode(boolean value) {
         putBoolean(KEY_E_INK_MODE, value);
-    }
+    }*/
 
-    public static boolean getEInkMode() {
+    /*public static boolean getEInkMode() {
         return getBoolean(KEY_E_INK_MODE, DEFAULT_E_INK_MODE);
-    }
+    }*/
 
     public static boolean getCellularNetworkWarning() {
         return getBoolean(KEY_CELLULAR_NETWORK_WARNING, DEFAULT_CELLULAR_NETWORK_WARNING);

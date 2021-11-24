@@ -61,6 +61,8 @@ public class ViewTransition {
     }
 
     public boolean showView(int shownView, boolean animation) {
+        animation = false;
+
         View[] views = mViews;
         int length = views.length;
         if (shownView >= length || shownView < 0) {

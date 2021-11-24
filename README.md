@@ -1,5 +1,9 @@
 # EhViewer
 
+Forked from https://github.com/NuclearVGA/EhViewer, modified for better experience on my rooted Sony DPT E-Ink readers.
+
+Below are the original README contents.
+
 前任作者NekoInverter在gitlab重新更新EhViewer了，我不再独立维护项目，本项目暂时封存。
 请前往 https://gitlab.com/NekoInverter/EhViewer 获取最新版本。
 
